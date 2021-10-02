@@ -5,7 +5,7 @@ function compute()
     var years = document.getElementById("years").value;
 
     if (principal == "") { //Here Check is empty
-        alert("Amount can't by empty or an alphabet character");
+        alert("Enter a positive number");
         document.getElementById("principal").focus();
         return false;
     }else{
